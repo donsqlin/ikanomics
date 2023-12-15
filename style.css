@@ -83,7 +83,25 @@ section h2, h3 {
     padding: 50px 0;
     text-align: center;
   }
+
+#about {
+    text-align: center;
+}
+
+#about p {
+    display: flex;
+} 
+
+.about-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px 400px 50px 400px; /*shorthand: top, right, bottom, left */
+    margin: 0 auto;
+  }
   
+
   .intro-content {
     display: flex;
     flex-direction: column;
@@ -120,6 +138,14 @@ section h2, h3 {
     }
   }
   
+#services h2 {
+    text-align: center;
+}
+
+#services .services-container {
+    display: flex;
+    justify-content: center;
+}
 
 .services-container {
     display: flex;
@@ -135,6 +161,16 @@ section h2, h3 {
     border-radius: 5px;
 }
 
+#team h2 {
+    text-align: center;
+}
+
+#team .team-member {
+    display: flex;
+    justify-content: center;
+
+}
+
 .team-member {
     display: flex;
     align-items: center;
@@ -145,6 +181,10 @@ section h2, h3 {
     width: 100px;
     margin-right: 20px;
     border-radius: 50%;
+}
+
+#contact h2 {
+    text-align: center;
 }
 
 #contact form {
